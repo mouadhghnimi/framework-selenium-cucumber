@@ -9,3 +9,11 @@ Feature: Authentification - OrangeHRM
     And je saisie le mot de passe
     And je clique sur le bouton login
     Then redirection vers la page Home
+    
+    @buzz
+    Scenario: Clique - Buzz
+    when Je clique sur le module buzz
+    
+    @temps
+    Scenario: Clique - Temps
+    When je clique sur le module temps
